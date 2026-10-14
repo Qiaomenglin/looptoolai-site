@@ -6,10 +6,13 @@
     <meta name="theme-color" content="#f4f5f1" />
     <meta
       name="description"
+      data-en="LoopTool AI makes small, thoughtful tools for everyday digital life. Meet PhotoLoop, a private photo organizing assistant for iPhone."
+      data-zh="LoopTool AI 打造简洁、贴心的日常数字工具。认识 PhotoLoop——一款注重隐私的 iPhone 照片整理助手。"
       content="LoopTool AI makes small, thoughtful tools for everyday digital life. Meet PhotoLoop, a private photo organizing assistant for iPhone."
     />
-    <title>LoopTool AI — Small tools for everyday loops</title>
+    <title data-en="LoopTool AI — Small tools for everyday loops" data-zh="LoopTool AI — 让日常更轻松的小工具">LoopTool AI — Small tools for everyday loops</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -18,24 +21,25 @@
         <span>LoopTool <em>AI</em></span>
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#product">Products</a>
-        <a href="#roadmap">Roadmap</a>
-        <a href="#principles">Principles</a>
-        <a href="privacy.html">Privacy</a>
+        <a href="#product"><span data-en="Products" data-zh="产品">Products</span></a>
+        <a href="#roadmap"><span data-en="Roadmap" data-zh="产品规划">Roadmap</span></a>
+        <a href="#principles"><span data-en="Principles" data-zh="原则">Principles</span></a>
+        <a href="privacy.html"><span data-en="Privacy" data-zh="隐私">Privacy</span></a>
+        <button class="language-toggle" id="language-toggle" type="button" aria-label="Switch to Chinese">中文</button>
       </nav>
     </header>
 
     <main>
       <section class="hero page-width">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-dot"></span>Independent tools, made with care</p>
-          <h1>Make room for the moments that matter.</h1>
-          <p class="hero-text">
+          <p class="eyebrow"><span class="eyebrow-dot"></span><span data-en="Independent tools, made with care" data-zh="独立开发，认真做好每个工具">Independent tools, made with care</span></p>
+          <h1 data-en="Make room for the moments that matter." data-zh="为重要的时刻留出空间。">Make room for the moments that matter.</h1>
+          <p class="hero-text" data-en="LoopTool AI builds focused tools that make everyday digital life feel lighter, calmer, and more intentional." data-zh="LoopTool AI 专注打造小而有用的工具，让日常数字生活更轻松、更从容、更有掌控感。">
             LoopTool AI builds focused tools that make everyday digital life feel lighter, calmer, and more intentional.
           </p>
           <div class="hero-actions">
-            <a class="button button-dark" href="#product">Meet PhotoLoop <span aria-hidden="true">↘</span></a>
-            <a class="text-link" href="privacy.html">Our privacy promise <span aria-hidden="true">→</span></a>
+            <a class="button button-dark" href="#product"><span data-en="Meet PhotoLoop" data-zh="了解 PhotoLoop">Meet PhotoLoop</span> <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="privacy.html"><span data-en="Our privacy promise" data-zh="我们的隐私承诺">Our privacy promise</span> <span aria-hidden="true">→</span></a>
           </div>
         </div>
 
@@ -50,7 +54,7 @@
           <div class="memory-card memory-front">
             <div class="memory-shape shape-sun"></div>
             <div class="memory-shape shape-hill"></div>
-            <span>YOUR CAMERA ROLL</span>
+            <span data-en="YOUR CAMERA ROLL" data-zh="你的相册">YOUR CAMERA ROLL</span>
           </div>
           <div class="spark spark-one">✦</div>
           <div class="spark spark-two">✧</div>
@@ -59,9 +63,9 @@
 
       <section class="product-section page-width" id="product">
         <div class="section-intro">
-          <p class="eyebrow">First loop <span class="eyebrow-line"></span></p>
+          <p class="eyebrow"><span data-en="First loop" data-zh="第一个产品">First loop</span> <span class="eyebrow-line"></span></p>
           <h2>PhotoLoop</h2>
-          <p class="section-lede">
+          <p class="section-lede" data-en="A private, thoughtful way to find the photos you no longer need — before they take over your iPhone." data-zh="在照片占满 iPhone 之前，用一种注重隐私、清晰从容的方式找出不再需要的照片。">
             A private, thoughtful way to find the photos you no longer need — before they take over your iPhone.
           </p>
         </div>
@@ -72,34 +76,34 @@
               <span class="icon-sun"></span>
               <span class="icon-loop"></span>
             </div>
-            <p class="product-status">In development · iPhone</p>
-            <h3>A calmer camera roll starts here.</h3>
-            <p>
+            <p class="product-status" data-en="In development · iPhone" data-zh="开发中 · iPhone">In development · iPhone</p>
+            <h3 data-en="A calmer camera roll starts here." data-zh="从更清爽的相册开始。">A calmer camera roll starts here.</h3>
+            <p data-en="PhotoLoop is designed to help you spot duplicates, similar shots, screenshots, and blurry photos in a few clear steps. You stay in control of every deletion." data-zh="PhotoLoop 会用几个清晰的步骤，帮助你找出重复、相似、截图和模糊照片。每一次删除都由你亲自确认。">
               PhotoLoop is designed to help you spot duplicates, similar shots, screenshots, and blurry photos in a few clear steps. You stay in control of every deletion.
             </p>
-            <span class="coming-soon">Coming soon to the App Store</span>
+            <span class="coming-soon" data-en="Coming soon to the App Store" data-zh="即将登陆 App Store">Coming soon to the App Store</span>
           </div>
 
           <div class="feature-list" aria-label="PhotoLoop features">
             <div class="feature-item">
               <span class="feature-number">01</span>
               <div>
-                <h3>See what is taking space</h3>
-                <p>Get a simple overview of your photo library before you decide what to do.</p>
+                <h3 data-en="See what is taking space" data-zh="看清空间被什么占用">See what is taking space</h3>
+                <p data-en="Get a simple overview of your photo library before you decide what to do." data-zh="在决定如何整理之前，先清楚了解照片库的整体情况。">Get a simple overview of your photo library before you decide what to do.</p>
               </div>
             </div>
             <div class="feature-item">
               <span class="feature-number">02</span>
               <div>
-                <h3>Find the easy wins</h3>
-                <p>Group duplicate, similar, blurry, and screenshot photos into useful categories.</p>
+                <h3 data-en="Find the easy wins" data-zh="先处理最容易的部分">Find the easy wins</h3>
+                <p data-en="Group duplicate, similar, blurry, and screenshot photos into useful categories." data-zh="把重复、相似、模糊和截图照片整理成清晰的分类。">Group duplicate, similar, blurry, and screenshot photos into useful categories.</p>
               </div>
             </div>
             <div class="feature-item">
               <span class="feature-number">03</span>
               <div>
-                <h3>Stay in the loop</h3>
-                <p>Review each suggestion yourself. Your library changes only when you confirm it.</p>
+                <h3 data-en="Stay in the loop" data-zh="每一步都由你决定">Stay in the loop</h3>
+                <p data-en="Review each suggestion yourself. Your library changes only when you confirm it." data-zh="亲自查看每一项建议。只有在你确认后，照片库才会发生变化。">Review each suggestion yourself. Your library changes only when you confirm it.</p>
               </div>
             </div>
           </div>
@@ -109,10 +113,10 @@
       <section class="roadmap-section page-width" id="roadmap">
         <div class="roadmap-heading">
           <div>
-            <p class="eyebrow">The LoopTool family <span class="eyebrow-line"></span></p>
-            <h2>Small tools.<br />One calm ecosystem.</h2>
+            <p class="eyebrow"><span data-en="The LoopTool family" data-zh="LoopTool 产品家族">The LoopTool family</span> <span class="eyebrow-line"></span></p>
+            <h2 data-en="Small tools.<br />One calm ecosystem." data-zh="小工具。<br />组成一个轻盈的工具生态。">Small tools.<br />One calm ecosystem.</h2>
           </div>
-          <p>
+          <p data-en="PhotoLoop is the first loop we are building. These are the focused tools we may explore next as the studio grows." data-zh="PhotoLoop 是我们正在打造的第一个产品。随着工作室发展，这些是我们可能继续探索的专注型工具。">
             PhotoLoop is the first loop we are building. These are the focused tools we may explore next as the studio grows.
           </p>
         </div>
@@ -120,31 +124,31 @@
         <div class="roadmap-grid">
           <article class="roadmap-card roadmap-card-featured">
             <div class="roadmap-icon roadmap-icon-photo" aria-hidden="true"><span></span></div>
-            <div class="roadmap-meta"><span>01</span><span class="roadmap-status active-status">Now building</span></div>
+            <div class="roadmap-meta"><span>01</span><span class="roadmap-status active-status" data-en="Now building" data-zh="正在开发">Now building</span></div>
             <h3>PhotoLoop</h3>
-            <p>A private assistant for finding duplicates, screenshots, and blurry photos on iPhone.</p>
-            <a href="#product" class="card-link">Explore PhotoLoop <span aria-hidden="true">↗</span></a>
+            <p data-en="A private assistant for finding duplicates, screenshots, and blurry photos on iPhone." data-zh="一款注重隐私的 iPhone 照片整理助手，帮助你找出重复、截图和模糊照片。">A private assistant for finding duplicates, screenshots, and blurry photos on iPhone.</p>
+            <a href="#product" class="card-link"><span data-en="Explore PhotoLoop" data-zh="了解 PhotoLoop">Explore PhotoLoop</span> <span aria-hidden="true">↗</span></a>
           </article>
           <article class="roadmap-card">
             <div class="roadmap-icon roadmap-icon-scan" aria-hidden="true"><span></span></div>
-            <div class="roadmap-meta"><span>02</span><span class="roadmap-status">Exploring</span></div>
+            <div class="roadmap-meta"><span>02</span><span class="roadmap-status" data-en="Exploring" data-zh="规划中">Exploring</span></div>
             <h3>ScanLoop</h3>
-            <p>A focused scanning tool for turning everyday paper into clean, useful digital files.</p>
-            <span class="card-link muted-link">On the horizon</span>
+            <p data-en="A focused scanning tool for turning everyday paper into clean, useful digital files." data-zh="一款专注的扫描工具，把日常纸张变成整洁、好用的数字文件。">A focused scanning tool for turning everyday paper into clean, useful digital files.</p>
+            <span class="card-link muted-link" data-en="On the horizon" data-zh="未来探索">On the horizon</span>
           </article>
           <article class="roadmap-card">
             <div class="roadmap-icon roadmap-icon-home" aria-hidden="true"><span></span></div>
-            <div class="roadmap-meta"><span>03</span><span class="roadmap-status">Exploring</span></div>
+            <div class="roadmap-meta"><span>03</span><span class="roadmap-status" data-en="Exploring" data-zh="规划中">Exploring</span></div>
             <h3>HomeLoop</h3>
-            <p>A simple way to keep track of the things you own, use, and want to remember.</p>
-            <span class="card-link muted-link">On the horizon</span>
+            <p data-en="A simple way to keep track of the things you own, use, and want to remember." data-zh="用一种简单的方式记录你拥有、使用和想要记住的物品。">A simple way to keep track of the things you own, use, and want to remember.</p>
+            <span class="card-link muted-link" data-en="On the horizon" data-zh="未来探索">On the horizon</span>
           </article>
           <article class="roadmap-card">
             <div class="roadmap-icon roadmap-icon-note" aria-hidden="true"><span></span></div>
-            <div class="roadmap-meta"><span>04</span><span class="roadmap-status">Exploring</span></div>
+            <div class="roadmap-meta"><span>04</span><span class="roadmap-status" data-en="Exploring" data-zh="规划中">Exploring</span></div>
             <h3>NoteLoop</h3>
-            <p>A quieter place for notes, ideas, and gentle AI help when you ask for it.</p>
-            <span class="card-link muted-link">On the horizon</span>
+            <p data-en="A quieter place for notes, ideas, and gentle AI help when you ask for it." data-zh="一个更安静的空间，用来记录笔记、想法，并在你需要时提供温和的 AI 帮助。">A quieter place for notes, ideas, and gentle AI help when you ask for it.</p>
+            <span class="card-link muted-link" data-en="On the horizon" data-zh="未来探索">On the horizon</span>
           </article>
         </div>
       </section>
@@ -152,23 +156,23 @@
       <section class="principles-section" id="principles">
         <div class="page-width principles-wrap">
           <div>
-            <p class="eyebrow eyebrow-light">Our north star</p>
-            <h2>Useful by default.<br />Private by design.</h2>
+            <p class="eyebrow eyebrow-light" data-en="Our north star" data-zh="我们的方向">Our north star</p>
+            <h2 data-en="Useful by default.<br />Private by design." data-zh="默认实用。<br />隐私优先。">Useful by default.<br />Private by design.</h2>
           </div>
           <div class="principles-copy">
-            <p>
+            <p data-en="LoopTool AI is an independent studio building small products for real life. We keep the scope focused, the interfaces clear, and the technology close to the device whenever we can." data-zh="LoopTool AI 是一个为真实生活打造小产品的独立工作室。我们保持功能聚焦、界面清晰，并尽可能让技术在设备本地运行。">
               LoopTool AI is an independent studio building small products for real life. We keep the scope focused, the interfaces clear, and the technology close to the device whenever we can.
             </p>
-            <a class="light-link" href="privacy.html">Read our privacy principles <span aria-hidden="true">↗</span></a>
+            <a class="light-link" href="privacy.html"><span data-en="Read our privacy principles" data-zh="阅读我们的隐私原则">Read our privacy principles</span> <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </section>
 
       <section class="closing-section page-width">
-        <p class="eyebrow">Keep in touch</p>
-        <h2>One small loop at a time.</h2>
-        <p>PhotoLoop is being shaped for people who want a little more space on their iPhone, without giving up control of their memories.</p>
-        <a class="button button-outline" href="mailto:hello@looptoolai.com">Say hello <span aria-hidden="true">↗</span></a>
+        <p class="eyebrow" data-en="Keep in touch" data-zh="保持联系">Keep in touch</p>
+        <h2 data-en="One small loop at a time." data-zh="一次做好一个小工具。">One small loop at a time.</h2>
+        <p data-en="PhotoLoop is being shaped for people who want a little more space on their iPhone, without giving up control of their memories." data-zh="PhotoLoop 为那些想在 iPhone 上留出更多空间、同时掌控自己记忆的人而打造。">PhotoLoop is being shaped for people who want a little more space on their iPhone, without giving up control of their memories.</p>
+        <a class="button button-outline" href="mailto:403833894@qq.com"><span data-en="Say hello" data-zh="联系我">Say hello</span> <span aria-hidden="true">↗</span></a>
       </section>
     </main>
 
@@ -178,10 +182,10 @@
         <span>LoopTool <em>AI</em></span>
       </a>
       <div class="footer-links">
-        <a href="privacy.html">Privacy</a>
-        <a href="mailto:hello@looptoolai.com">Contact</a>
+        <a href="privacy.html"><span data-en="Privacy" data-zh="隐私">Privacy</span></a>
+        <a href="mailto:403833894@qq.com">403833894@qq.com</a>
       </div>
-      <p>© 2026 LoopTool AI</p>
+      <p data-en="© 2026 LoopTool AI" data-zh="© 2026 LoopTool AI">© 2026 LoopTool AI</p>
     </footer>
   </body>
 </html>
